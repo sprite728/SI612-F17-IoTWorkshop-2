@@ -1,0 +1,24 @@
+{
+  "name": "beacon-detector",
+  "version": "1.0.0",
+  "description": "Detect nearby beacons",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild --version=1.7.2"
+  },
+  "keywords": [
+    "Electron",
+    "bootcamp"
+  ],
+  "author": "Chuan-Che Huang",
+  "dependencies": {
+    "bleacon": "^0.5.1",
+    "electron": "^1.7.2",
+    "p5": "^0.5.14",
+    "serialport": "^5.0.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.6.0"
+  }
+}
